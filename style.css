@@ -1,0 +1,78 @@
+/**
+    La mejor práctica de crear CSS es en otro archivo y referenciarlo
+ Definir los estilos que van afectar a la página
+ Es importante mantener la estructura así como se tiene en el HTML
+ */
+ 
+ .titulo_main{
+     padding-left: 30px;
+    font-weight: 3px;
+ }
+
+#banner{
+
+    width: 100%;
+    height: 15%;
+    margin: 0%;
+    
+    }
+
+ .main{
+
+    background: #ebebeb;
+    padding: 17px;
+ }   
+
+ p{ 
+    text-align: center; 
+
+  }
+
+.titulo_center{
+
+    text-align: center;
+}  
+
+ /**
+Pintar de color las letras solamente de misión al ser más especifico y poner el -- em strong --
+*/ 
+em strong{
+    color: rgb(214, 75, 75);
+} 
+
+
+
+#mision{
+    font-size: 18px;text-align: center;
+    
+}
+
+.diferenciales{
+background: #FFFFFF;
+padding: 30px; /** padding le da formato al margen */
+
+}
+
+
+
+.items{
+    font-style: italic;
+    
+    
+}
+
+ul{  /**
+    Se ajuste al espacio de su contenido
+    */ 
+    display: inline-block;
+    vertical-align: top;
+    width: 30%; /** 30% del total de la pantalla*/
+    margin-right: 5%;
+   
+}
+
+.imdif{
+    width: 30%;
+
+}
+
